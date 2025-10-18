@@ -8,3 +8,6 @@ ln -s $HOME/.config/.zshrc $HOME/.zshrc
 
 # Install oh-my-zsh
 # sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# Install tmux plugin manager
+git clone https://github.com/tmux-plugins/tpm ~/.config/tmux/plugins/tpm
