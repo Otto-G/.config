@@ -20,7 +20,10 @@
     "terminal",
     "terminalfont",
     "cpu",
-    "gpu",
+    {
+      "type": "gpu",
+      "hideType": "integrated"
+    },
     "memory",
     "swap",
     "disk",
@@ -29,10 +32,6 @@
     "poweradapter",
     "locale",
     "break",
-    "colors",
-    {
-      "type": "gpu",
-      "hideType": "integrated"
-    }
+    "colors"
   ]
 }
