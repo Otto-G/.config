@@ -86,6 +86,8 @@ ZSH_TMUX_UNICODE=true
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+export VIMINIT='source ~/.config/vimrc'
+export MYVIMRC='~/.config/vimrc'
 
 # export MANPATH="/usr/local/man:$MANPATH"
 
